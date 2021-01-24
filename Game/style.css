@@ -33,7 +33,7 @@ nav ul a li{
 }
 
 .header-right{
-    background-image: url('img/img-back.png');
+    background-image: url('img-back.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
