@@ -4,13 +4,9 @@
     box-sizing: border-box;
 }
 nav{
-    /* width: 80%; */
     text-align: center;
+    margin-top: 10px;
 }
-header{
-    /* height: 100vh; */
-}
-
 nav ul a li{
     display: inline-block;
     cursor: pointer;
@@ -31,38 +27,41 @@ nav ul a li{
 .navbar-left ul a{
     color: darkgrey;
 }
-
+.navbar-collapse{
+    float: right!important;
+}
 .header-right{
-    background-image: url('img-back.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    width: 100%;
     height: 80vh;
 }
 
-.img-back-up{
-    width: 500px;
-    height: 400px;
-    /* position: relative;
-    top: 50%; left: 50%;
-    transform: translate(-15%,-30%); */
-    float: right;
+.header-right img{
+    width: 100%;
+    height: 100%;
+    position:absolute;
 }
-.img-back-up h3{
+.header-right-img-up h3{
     width: 50%;
     text-align: center;
     color: #fff;
     font-size: 32px;
     font-family: 'Kalam', cursive;
 }
+.header-right-img-up{
+    position: relative;
+    z-index: 1;
+    position: relative;
+    top: 50%; left: 50%;
+    transform: translate(0%,-50%);
+}
 
-.img-back-up p{
+.header-right-img-up p{
     width: 50%;
     color: #fff;
     font-size: 20px;
     font-family: 'Kalam', cursive;
 }
-.img-back-up button {
+.header-right-img-up button {
     width: 30%;
     height: 30px;
     border:none;
@@ -258,11 +257,12 @@ nav ul a li{
 .form-part{
     width: 100%;
     height: 80vh;
-    background-image: url('https://images.squarespace-cdn.com/content/v1/5abbec19f8370a187f55fec9/1577910593353-G2UBP6QGMPC0EV39XH13/ke17ZwdGBToddI8pDm48kNvT88LknE-K9M4pGNO0Iqd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1USOFn4xF8vTWDNAUBm5ducQhX-V3oVjSmr829Rco4W2Uo49ZdOtO_QXox0_W7i2zEA/Alinea+Collective+Japanese+LR-2.jpg?format=2500w');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: auto;
     border-radius: 4px;
+}
+.form-part img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
 }
 .contact{
     position: relative;
@@ -303,7 +303,7 @@ nav ul a li{
     border-bottom: .5px solid #fff;
     color:#fff;
 }
-::placeholder{
+.get-touch ::placeholder{
     color: #fff;
     text-align: left;
     font-size: 18px;
@@ -322,16 +322,51 @@ nav ul a li{
 
 footer{
     margin-top: 200px;
-    background-image: 
-    linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9ylLG1vlTHWBDU0i-E5RVl7pKi2dgecgwfg&usqp=CAU');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-color: #0e2038;
+    height: auto;
 }
-
-
-
+.footer-up{
+    height: auto;
+}
+.footer-up-right2 h3{
+    position: relative;
+    top: 40%;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.footer-up-right2 a{
+    position: relative;
+   top: 35%;
+}
+.footer-up-right2 a i{
+    font-size: 25px;
+    padding: 20px;
+    color: whitesmoke;
+}
+.footer-input{
+    position: relative;
+    top: 40%;
+}
+.footer-input input{
+    width: 200px;
+    height: 40px;
+    border: none;
+    position: relative;
+    outline-color: transparent;
+}
+.footer-input button{
+    width: 100px;
+    height: 40px;
+    border: none;
+    position: relative;
+    outline-color: transparent;
+    background-color:  rgba(237, 182, 84, 1);
+    color: white;
+}
+.footer-input input::placeholder{
+    font-size: 15px;
+    font-family: serif;
+}
 @media screen and (max-width: 900px){
     .header-left{
         display: none;
