@@ -1,271 +1,287 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://kit.fontawesome.com/04f070e2b8.js" crossorigin="anonymous"></script>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
-  <script src="//code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/04f070e2b8.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+    <script src="//code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <link rel="stylesheet" href="style.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 </head>
 <body>
+    <div class="fixed-top">
+        <header class="topbar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <ul class="social-network">
+                            <li><a class="waves-effect waves-dark" href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a class="waves-effect waves-dark" href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a class="waves-effect waves-dark" href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a class="waves-effect waves-dark" href="#"><i class="fa fa-pinterest"></i></a></li>
+                            <li><a class="waves-effect waves-dark" href="#"><i class="fa fa-google-plus"></i></a></li>
+                        </ul>
+                    </div>
 
-<header class="container">
-  <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-    <a class="navbar-brand" href="#">Foolog</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link " href="#">Disabled</a>
-        </li>
-      </ul>
-      <!-- <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form> -->
-    </div>
-  </nav>
-<div class="row">
-  <div class="col-lg-7 header-right mt-1">
-      <img src="img/img-back.png" alt="">
-    <div class="header-right-img-up">
-    <h3>Foolog</h3>
-    <p>Get a healthy and delicious course delivered to your cuisine with reading these blogs.</p>
-    <button>Get More Info</button>
-    </div>
-  </div>
+                </div>
+            </div>
+        </header>
+        <nav class="navbar navbar-expand-lg navbar-dark mx-background-top-linear">
+            <div class="container">
+                <a class="navbar-brand" href="index.html" style="text-transform: uppercase;">Foolog</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
 
-  <div class="col-lg-5 header-left">
-    <div class="container-fluid mt-1">
-    <div class="row">
-      <div class="col-lg-6 header-left-inside-r">
-        <img src="f1.jpg" alt="">
-        <h6>Omlet</h6>
-        <p>Lorem ipsum dolor sit amet consectetur elit...<a href="#">Read more</a> </p>
-      </div>
+                    <ul class="navbar-nav ml-auto">
 
-      <div class="col-lg-6 header-left-inside-l">
-        <img src="f2.jpg" alt="">
-        <h6>Steak</h6>
-        <p>Lorem ipsum dolor sit amet consectetur elit...<a href="#">Read more</a> </p>
-      </div>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">
+                                Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
 
-      <div class="col-lg-6 header-left-inside-r">
-        <img src="f3.jpg" alt="">
-        <h6>Omlet</h6>
-        <p>Lorem ipsum dolor sit amet consectetur elit...<a href="#">Read more</a> </p>
-      </div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
 
-      <div class="col-lg-6 header-left-inside-l">
-        <img src="f4.jpg" alt="">
-        <h6>Steak</h6>
-        <p>Lorem ipsum dolor sit amet consectetur elit...<a href="#">Read more</a> </p>
-      </div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
 
-      <div class="col-lg-6 header-left-inside-r">
-        <img src="f5.jpg" alt="">
-        <h6>Omlet</h6>
-        <p>Lorem ipsum dolor sit amet consectetur elit...<a href="#">Read more</a> </p>
-      </div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
 
-      <div class="col-lg-6 header-left-inside-l">
-        <img src="f6.jpg" alt="">
-        <h6>Steak</h6>
-        <p>Lorem ipsum dolor sit amet consectetur elit...<a href="#">Read more</a> </p>
-      </div>
-      
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </div>
-    </div>
-  </div>
-</div>
-</header>
+    <section id="home" class="helpr-section helpr-layout-1 section section-inverse-color">
+        <div class="container">
+            <div class="helpr-content" data-stellar-offset-parent="true">
 
-<section class="recpies mt-5 container "> 
-  <hr>
-  <center>
-    <h1 class="pt-5">Recpies</h1>
-  </center>
-  <div class="lines mt-5">
-    <div class="line1"></div>
-    <div class="line2"></div><br>
-    <div class="line4"></div>
-  </div>
-  <div class="row pt-5">
-    <div class="col-lg-4 recpies-collections">
-    <ul>
-      <a href="#">
-        <li class="collection-header">Recpies Collections</li>
-      </a>
-      <a href="#">
-      <li>Vegan Recpies</li>
-      </a>
-      <a href="#">
-      <li>Pasta Recpies</li>
-      </a>
-      <a href="#">
-      <li>Soup Recpies</li>
-      </a>
-      <a href="#">
-      <li>Meat Recpies</li>
-      </a>
-      <a href="#">
-      <li>Meat Recpies</li>
-      </a>
-      <a href="#">
-      <li>Meat Recpies</li>
-      </a>
-    </ul>
-    </div> 
- 
-<div class="col-lg-8 container-fluid">
-  <div class="row pt-2">
-    <div class="col-lg-6 recpies-img">
-      <img src="f6.jpg" alt="">
-      <time></time>
-    </div>
-    <div class="col-lg-6 recpies-text">
-      <h3>Spicy Chickpea Salad</h3>
-      <p>
-        A truly delicious superhero chickpea salad! Chickpeas mixed up with creamy mayo, 
-        fresh lemon, and a squeeze of sriracha. Serve with crackers, on a bed of greens, 
-        or dare we say, with the forever addicting everything bagel seasoning.
-      </p>
-    </div>
-  </div>
+                <div class="helpr-text" data-wow-duration="1s" data-wow-delay="0.5s">
+                    <div class="webHomeTitle">
+                        <h1 class="helpr-title">Foolog</h1>
+                    </div>
+                    <div class="home-service clearfix">
+                        <p>Get a healthy and delicious course</p>                           
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <div class="row pt-2">
-    <div class="col-lg-6 recpies-img">
-      <img src="f4.jpg" alt="">
-      <time></time>
-    </div>
-    <div class="col-lg-6 recpies-text">
-      <h3>Plantain and Pinto Stew with Aji Verde</h3>
-      <p>
-        Our new favorite warm and nutritious stew filled with pinto beans, plantains,
-        tomatoes, kale, and lots of cozy spices. Top it with a swizzle of a spicy green
-        sauce called aji verde and you’re in flavor town.
-      </p>
-    </div>
-  </div>
-  </div>
-  </div>
-  <div class="more-recpies pt-3">
-  <a href="#">Read More Recpies >>>></a>
-  </div>
-  <hr>
+    <section class="recpies mt-5 container ">
+        <hr>
+        <center>
+            <h1 class="pt-5">Recpies</h1>
+        </center>
+        <div class="lines mt-5">
+            <div class="line1"></div>
+            <div class="line2"></div><br>
+            <div class="line4"></div>
+        </div>
+        <div class="row pt-5">
+            <div class="col-lg-4 recpies-collections">
+                <ul>
+                    <a href="#">
+                        <li class="collection-header">Recpies Collections</li>
+                    </a>
+                    <a href="#">
+                        <li>Vegan Recpies</li>
+                    </a>
+                    <a href="#">
+                        <li>Pasta Recpies</li>
+                    </a>
+                    <a href="#">
+                        <li>Soup Recpies</li>
+                    </a>
+                    <a href="#">
+                        <li>Meat Recpies</li>
+                    </a>
+                    <a href="#">
+                        <li>Meat Recpies</li>
+                    </a>
+                    <a href="#">
+                        <li>Meat Recpies</li>
+                    </a>
+                </ul>
+            </div>
 
-<div class="check-videos mt-5 pt-5 container  ">
-  <center>
-    <h1>CHECK VIDEOS OUT</h1>
-  </center>
-  <div class="lines mt-5">
-    <div class="line1"></div>
-    <div class="line2"></div><br>
-    <div class="line4"></div>
-  </div>
-    <div class="row mt-5 pt-5">
-    <div class="col-lg-3 col-sm-6">
-      <iframe src="https://www.youtube.com/embed/GsBAthHLF-M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <button>Vegetarian</button>
-      <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h3>
-    </div>
-    <div class="col-lg-3 col-sm-6">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/fYQpCvcf1Pg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <button>Sweety</button>
-      <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h3>
-    </div>
-    <div class="col-lg-3 col-sm-6">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/_63914ECOkA?start=3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <button>Healthy</button>
-      <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h3>
-    </div>
-    <div class="col-lg-3 col-sm-6">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/EMmHixjZXTs?start=3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <button>Fast Food</button>
-      <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h3>
-    </div>
-  </div>
-</div>
-<div class="more-recpies pt-3">
-  <a href="#">Visit Channel For More >>>></a>
-  </div>
-<hr>
+            <div class="col-lg-8 container-fluid">
+                <div class="row pt-2">
+                    <div class="col-lg-6 recpies-img">
+                        <img src=" f6.jpg" alt="">
+                        <time></time>
+                    </div>
+                    <div class="col-lg-6 recpies-text">
+                        <h3>Spicy Chickpea Salad</h3>
+                        <p>
+                            A truly delicious superhero chickpea salad! Chickpeas mixed up with creamy mayo,
+                            fresh lemon, and a squeeze of sriracha. Serve with crackers, on a bed of greens,
+                            or dare we say, with the forever addicting everything bagel seasoning.
+                        </p>
+                    </div>
+                </div>
 
-<div class="get-touch mt-5 pt-5">
-  <center>
-    <h1>CONTACT</h1>
-  </center>
-  <div class="lines mt-5">
-    <div class="line1"></div>
-    <div class="line2"></div><br>
-    <div class="line4"></div>
-  </div>
-<div class="row">
-  <div class="col-lg-12 form-part">
-    <img src="contact.jpg" alt="">
-    <form>
-      <input type="text" placeholder="Your Name">
-      <input type="email" placeholder="example@gmail.com"><br> <br>
-      <textarea name="message" placeholder="Your Messages here"></textarea><br>
-      <a href="#"> <button>Send</button></a>
-    </form>
-  </div>
- 
-</div>
-</div>
-</section>
+                <div class="row pt-2">
+                    <div class="col-lg-6 recpies-img">
+                        <img src=" f4.jpg" alt="">
+                        <time></time>
+                    </div>
+                    <div class="col-lg-6 recpies-text">
+                        <h3>Plantain and Pinto Stew with Aji Verde</h3>
+                        <p>
+                            Our new favorite warm and nutritious stew filled with pinto beans, plantains,
+                            tomatoes, kale, and lots of cozy spices. Top it with a swizzle of a spicy green
+                            sauce called aji verde and you’re in flavor town.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="more-recpies pt-3">
+            <a href="#">Read More Recpies >>>></a>
+        </div>
+        <hr>
 
-<footer  class="text-white text-center text-lg-start">
-  <div class="container-fluid footer-up">
-    <div class="row">
-      <div class="col-lg-3 col-sm-4 footer-up-right">
-        <img src="foolog.png" alt="">
-      </div>
-      <div class="col-lg-4 col-sm-4 footer-up-right2">
-        <h3>
-          Get a healthy and delicious course
-        </h3>
-        <a href="#"><i class="fa fa-facebook"></i></a>
-        <a href="#"><i class="fa fa-instagram"></i></a>
-        <a href="#"><i class="fa fa-twitter"></i></a>
-      </div>
-      
-      <div class="col-lg-5 col-sm-4">
-        <div class="footer-input">
-            <input type="email" placeholder="E-mail" required="@"> 
-            <button>Send</button>
-          </div>
-      </div>
+        <div class="check-videos mt-5 pt-5 container  ">
+            <center>
+                <h1>CHECK VIDEOS OUT</h1>
+            </center>
+            <div class="lines mt-5">
+                <div class="line1"></div>
+                <div class="line2"></div><br>
+                <div class="line4"></div>
+            </div>
+            <div class="row mt-5 pt-5">
+                <div class="col-lg-3 col-sm-6">
+                    <iframe src="https://www.youtube.com/embed/GsBAthHLF-M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <button>Vegetarian</button>
+                    <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h3>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/fYQpCvcf1Pg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <button>Sweety</button>
+                    <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h3>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/_63914ECOkA?start=3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <button>Healthy</button>
+                    <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h3>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/EMmHixjZXTs?start=3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <button>Fast Food</button>
+                    <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h3>
+                </div>
+            </div>
+        </div>
+        <div class="more-recpies pt-3">
+            <a href="#">Visit Channel For More >>>></a>
+        </div>
+        <hr>
+
+        <div class="get-touch mt-5 pt-5">
+            <center>
+                <h1>CONTACT</h1>
+            </center>
+            <div class="lines mt-5">
+                <div class="line1"></div>
+                <div class="line2"></div><br>
+                <div class="line4"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 form-part">
+                    <img src="contact.jpg" alt="">
+                    <form>
+                        <input type="text" placeholder="Your Name">
+                        <input type="email" placeholder="example@gmail.com"><br> <br>
+                        <textarea name="message" placeholder="Your Messages here"></textarea><br>
+                        <a href="#"> <button>Send</button></a>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    
+<footer class="footer-section bg-with-black">
+    <div class="footer-top-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="single-fta">
+                        <h1>Foolog</h1>
+                        <ul class="fta-list">
+                            <li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Finacial Planning</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> Investments Management</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span>Taxes Planning</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="single-fta">
+                        <h3 class="fta-title">Important Link</h3>
+                        <ul class="fta-list">
+                            <li><a href="#"><i class="fa fa-square"></i>Finacial Planning</a></li>
+                            <li><a href="#"><i class="fa fa-square"></i>Investments Management</a></li>
+                            <li><a href="#"><i class="fa fa-square"></i>Taxes Planning</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="single-fta">
+                        <h3 class="fta-title">Important Link</h3>
+                        <ul class="fta-list">
+                            <li><a href="#"><i class="fa fa-square"></i>Finacial Planning</a></li>
+                            <li><a href="#"><i class="fa fa-square"></i>Investments Management</a></li>
+                            <li><a href="#"><i class="fa fa-square"></i>Taxes Planning</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="single-fta">
+                        <h3 class="fta-title">Contact Us</h3>
+                        <ul class="fta-list">
+                            <li>Address: 8th floor, 379 Hudson St, New York, NY 10018</li>
+                            <li>Phone: (+1) 96 716 6879</li>
+                            <li>Email: contact@site.com</li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
     </div>
-  </div>
-
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-    © 2021 Foolog
-    <a class="text-white" href="#">All rights deserved</a>
-  </div>
+    <div class="footer-bottom">
+            <p>@all rights deserved.</p>
+            <pre>Designed by <a href="#">km.az</a> </pre>
+    </div>
 </footer>
-<script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="main.js"></script>
 </body>
 </html>   
