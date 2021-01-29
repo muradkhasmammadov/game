@@ -6,4 +6,11 @@ $(document).ready(function(){
 
     today = mm + '/' + dd + '/' + yyyy;
     $('.recpies-img time').text(today);
+
+    $(".wrapper-dropdown-3").on("click",function(){
+        $(this).toggleClass("active")
+    })
+    $(".wrapper-dropdown-2").on("click",function(){
+        $(this).toggleClass("active")
+    })
 })
