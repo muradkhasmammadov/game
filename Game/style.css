@@ -684,8 +684,11 @@ footer center p a{
     color: #2cbdb8;
   }
   .recpies-blog{
-    margin-top: 100px;
+    margin-top: 40px;
   }
+   .recpies-collections{
+     margin-top: 70px;
+    }
   .footer-section{
     height:auto;
     }
