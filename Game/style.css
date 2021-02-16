@@ -302,7 +302,7 @@ body {
     width: 100%;
     height: 80vh;
     border-radius: 4px;
-    background: url('img/contact.jpg') no-repeat;
+    background: url('https://s3-us-west-2.amazonaws.com/px3fr/upload/2013/large/1-55011-15_PX3_Shirish-Sen_Sagar-Ratna_Podi-Idli.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
